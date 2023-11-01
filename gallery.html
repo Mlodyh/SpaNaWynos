@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zdjęcia</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link
+    href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+    rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+          <span class="logo-text"><a href="index.html">SpaNaWynos</span></a>
+          <a href="index.html"><img src="logo.png"></a>
+      </div>
+      <div class="menu-toggle" id="mobile-menu">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
+      <nav class="navbar">
+        <ul>
+          <li><div class="close-btn" id="closeButton">X</li></div>
+          <li><a href="index.html" id="homeLink">Strona Główna</a></li>
+          <li><a href="gallery.html" id="galleryLink">Zdjęcia</a></li>
+          <li><a href="rules.html" id="rulesLink">Regulamin</a></li>
+        </ul>
+      </nav>
+    </header>
+        <div class="gallery-content">
+            <ul class="gallery">
+            <li class="thumbnail"><img src="images1.jpg" alt="sauna&jacuzzi" /></li>
+            <li class="thumbnail"><img src="images2.jpg" alt="sauna&jacuzzi" /></li>
+            <li class="thumbnail"><img src="images3.jpg" alt="jacuzzi" /></li>
+            <li class="thumbnail"><img src="images4.jpg" alt="sauna" /></li>
+            <li class="thumbnail"><img src="images5.jpg" alt="jacuzzi" /></li>
+            <li class="thumbnail"><img src="images6.jpg" alt="jacuzzi" /></li>
+            </ul>
+            <div class="popup hidden">
+            <button aria-label="Zamknij popup" class="popup_close">X</button>
+            <img src="" alt="" class="popup__img" />
+            <button
+                aria-label="Poprzednie zdjęcie"
+                class="popup_arrow popup_arrow--left">
+                <
+            </button>
+            <button
+                aria-label="Następne zdjęcie"
+                class="popup_arrow popup_arrow--right">
+                >
+            </button>
+            </div>
+        </div>
+        <div class="home-sci">
+          <a href="https://www.facebook.com/profile.php?id=100095738401696"
+            ><i class="bx bxl-facebook"></i
+          ></a>
+          <a href="https://www.facebook.com/profile.php?id=100055451666045"
+            ><i class="bx bxl-facebook"></i
+          ></a>
+          <a href="https://maps.app.goo.gl/zPRxm2584wvmSnnt5" target="_blank"
+            ><i class="bx bx-location-plus"></i
+          ></a>
+        </div>
+        <script src="main.js"></script>
+    </body>
