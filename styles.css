@@ -95,8 +95,8 @@ footer p {
   display: block;
   position: relative;
   width: 100vw;
-  height: 13vh;
-  top: 9vh;
+  height: 125px;
+  top: 10vh;
   display: flex;
   justify-content: space-around;
   align-items: center;
