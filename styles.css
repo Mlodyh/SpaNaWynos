@@ -29,7 +29,7 @@ footer {
   background-color: #373737;
   display: flex;
   justify-content: space-evenly;
-  padding: 15px 0;
+  padding: 8px 0;
   width: 100%;
 }
 
@@ -37,7 +37,7 @@ footer {
 .adres,
 .facebook,
 .whatsapp {
-  font-size: 20px;
+  font-size: 22px;
   color: #fff;
 }
 
@@ -98,7 +98,7 @@ footer p {
   height: 125px;
   top: 10vh;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   background-color: #373737;
 }
@@ -169,54 +169,10 @@ h2 {
   display: none;
 }
 
-.home-sci {
-  position: fixed;
-  bottom: 40px;
-  left: 80px;
-  width: 170px;
-  display: flex;
-  justify-content: space-between;
-}
-
-.home-sci a {
-  position: relative;
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  width: 40px;
-  height: 40px;
-  background: transparent;
-  border: 2px solid #d6a733;
-  border-radius: 50%;
-  font-size: 20px;
-  color: #d6a733;
-  text-decoration: none;
-  transition: 0.5s;
-  overflow: hidden;
-}
-
-.home-sci a:hover {
-  color: #d6a733;
-}
-
-.home-sci a:hover::before {
-  width: 100%;
-}
-
-.home-sci a::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 0;
-  height: 100%;
-  background: #d6a733;
-  transition: 0.5s;
-}
-
 /* RULES */
 
 .container-rules {
+  margin-top: -100px;
   padding: 10%;
   display: flex;
 }
@@ -224,6 +180,32 @@ h2 {
 .text-container-rules {
   color: white;
   font-size: 18px;
+}
+
+.pdf {
+  margin-top: 150px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.regulamin:hover {
+  transform: scale(1.15);
+}
+
+.regulamin {
+  padding: 5px;
+  border-radius: 15px;
+  margin: 25px;
+  cursor: pointer;
+  background-color: #d6a733;
+  border: none;
+}
+
+.pdf a {
+  text-decoration: none;
+  font-size: 26px;
+  color: white;
 }
 
 .head {
@@ -416,10 +398,6 @@ h2 {
 
 @media screen and (max-width: 768px) {
   /* HOME */
-
-  .home-sci {
-    left: 30px;
-  }
 
   .telefon,
   .adres,
